@@ -1,4 +1,4 @@
 # Data Science Projects
 This repository contains homework assignments from the Data Science course (advanced level). 
 Repository structure:
-1. Cuisines Classifier (classifier of different types of world cuisines by ingredient list) - HW_1 (1st folder).
+1. Cuisines Classifier (a classifier of various world cuisines based on ingredient lists) — HW_1.
