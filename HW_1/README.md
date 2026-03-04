@@ -10,5 +10,5 @@ The dataset is sourced from Kaggle: https://www.kaggle.com/datasets/kaggle/recip
 
 ### Results:
 * **Best model:** LinearSVC+CalibratedClassifierCV.
-* **Accuracy:** 78.8%. 
+* **Accuracy:** 78.8 %. 
 * **Output:** Predicted class probabilities for a test set of 9,944 observations.
