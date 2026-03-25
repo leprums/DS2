@@ -22,8 +22,10 @@ Music was written in Strudel (TidalCycles) - code placed ./data/melody_strudel.j
 ![Results:](https://github.com/leprums/DS2/blob/main/HW_3/data/results/results.png?raw=true) 
 ![F1 curve:](https://github.com/leprums/DS2/blob/main/HW_3/data/results/BoxF1_curve.png?raw=true)
 ![Confusion matrix:](https://github.com/leprums/DS2/blob/main/HW_3/data/results/confusion_matrix.png?raw=true)
-![Trained model label prediction:](<img width="1920" height="1920" alt="image" src="https://github.com/user-attachments/assets/ab83b74b-4018-4360-8df4-86f95589884b" />
-)
+![Trained model label prediction:](
+<p align="center">
+  <img src="HW_3/results/val_batch1_pred.jpg" width="600" alt="Trained model prediction">
+</p>)
 
 ### How to run 
 1. Clone the repository:
