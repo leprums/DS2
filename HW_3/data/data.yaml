@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['fist', 'five', 'horns']
+
+roboflow:
+  workspace: s-workspace-juute
+  project: hands-signs-idwet
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/s-workspace-juute/hands-signs-idwet/dataset/1
