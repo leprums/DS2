@@ -1,4 +1,4 @@
-# AI Gesture Conductor 🎶✨
+<img width="1920" height="1920" alt="image" src="https://github.com/user-attachments/assets/59fb0455-b8d7-4b3b-b7be-e193f00c468f" /># AI Gesture Conductor 🎶✨
 
 ### Project Description
 An interactive, real-time system that bridges computer vision and generative music. By combining human pose estimation with a custom gesture classification model, users can conduct an algorithmic musical piece through physical movement. 
@@ -19,10 +19,11 @@ Music was written in Strudel (TidalCycles) - code placed ./data/melody_strudel.j
 * 30 epochs of training, which resulted in **mAP50** - `0.995`, **mAP50-90** - `0.861`.
 * **F1-Score** - `0.99` at 0.631 for all three classes.
 * **Classes:** fist (Pause), five (Play), horns (Special Effect).
-![Results:] <img src="./HW_3/results/results.png" width="400" alt="Collecting data"> 
-![F1 curve:](./HW_3/results/BoxF1_curve.png)
-![Confusion matrix:](./HW_3/results/confusion_matrix.png)
-![Trained model label prediction:](./HW_3/results/val_batch1_pred.jpg)
+![Results:](https://github.com/leprums/DS2/blob/main/HW_3/data/results/results.png?raw=true) 
+![F1 curve:](https://github.com/leprums/DS2/blob/main/HW_3/data/results/BoxF1_curve.png?raw=true)
+![Confusion matrix:](https://github.com/leprums/DS2/blob/main/HW_3/data/results/confusion_matrix.png?raw=true)
+![Trained model label prediction:](<img width="1920" height="1920" alt="image" src="https://github.com/user-attachments/assets/ab83b74b-4018-4360-8df4-86f95589884b" />
+)
 
 ### How to run 
 1. Clone the repository:
