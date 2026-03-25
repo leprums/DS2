@@ -1,4 +1,4 @@
-<img width="1920" height="1920" alt="image" src="https://github.com/user-attachments/assets/59fb0455-b8d7-4b3b-b7be-e193f00c468f" /># AI Gesture Conductor 🎶✨
+# AI Gesture Conductor 🎶✨
 
 ### Project Description
 An interactive, real-time system that bridges computer vision and generative music. By combining human pose estimation with a custom gesture classification model, users can conduct an algorithmic musical piece through physical movement. 
