@@ -6,6 +6,7 @@ An interactive, real-time system that bridges computer vision and generative mus
 The model (YOLO8) was further trained on data collected manually (./data/collect_data.py) and labeled using Roboflow (https://app.roboflow.com/s-workspace-juute/hands-signs-idwet/1). 
 Music was written in Strudel (TidalCycles) - code placed ./data/melody_strudel.js.
 
+
 [📺 Watch the Video Demo here!](https://drive.google.com/file/d/1P_SLsYVqdpdZagyFjVX_8JSkCtMOk2rq/view?usp=sharing)
 
 ### Features
@@ -25,22 +26,31 @@ Music was written in Strudel (TidalCycles) - code placed ./data/melody_strudel.j
 
 ### How to run 
 1. Clone the repository:
-   
+
+
    `git clone <repository_url>`
-   
+
+
    `cd <repository_folder>`
 
+
 3. Install the dependencies:
+
    
    Make sure you have a virtual environment activated, then run:
+
    
    `pip install -r requirements.txt`.
 
+
 5. Prepare the files:
+
    
    Ensure that *music.mp3* is located in the same directory as *final_model.py*.
 
+
 7. Launch the system:
+
    
    `python final_model.py`.
    
