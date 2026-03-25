@@ -5,6 +5,7 @@ An interactive, real-time system that bridges computer vision and generative mus
 
 The model (YOLO8) was further trained on data collected manually (./data/collect_data.py) and labeled using Roboflow (https://app.roboflow.com/s-workspace-juute/hands-signs-idwet/1). 
 Music was written in Strudel (TidalCycles) - code placed ./data/melody_strudel.js.
+
 [📺 Watch the Video Demo here!](https://drive.google.com/file/d/1P_SLsYVqdpdZagyFjVX_8JSkCtMOk2rq/view?usp=sharing)
 
 ### Features
@@ -17,23 +18,29 @@ Music was written in Strudel (TidalCycles) - code placed ./data/melody_strudel.j
 * 30 epochs of training, which resulted in **mAP50** - `0.995`, **mAP50-90** - `0.861`.
 * **F1-Score** - `0.99` at 0.631 for all three classes.
 * **Classes:** fist (Pause), five (Play), horns (Special Effect).
-![Results:] <img src="HW_3/results/results.png" width="400" alt="Collecting data"> 
-![F1 curve:](HW_3/results/BoxF1_curve.png)
-![Confusion matrix:](HW_3/results/confusion_matrix.png)
-![Trained model label prediction:](HW_3/results/val_batch1_pred.jpg)
+![Results:] <img src="./HW_3/results/results.png" width="400" alt="Collecting data"> 
+![F1 curve:](./HW_3/results/BoxF1_curve.png)
+![Confusion matrix:](./HW_3/results/confusion_matrix.png)
+![Trained model label prediction:](./HW_3/results/val_batch1_pred.jpg)
 
 ### How to run 
 1. Clone the repository:
-   `git clone <repository_url>
-   cd <repository_folder>`
+   
+   `git clone <repository_url>`
+   
+   `cd <repository_folder>`
 
 3. Install the dependencies:
+   
    Make sure you have a virtual environment activated, then run:
+   
    `pip install -r requirements.txt`.
 
-4. Prepare the files:
+5. Prepare the files:
+   
    Ensure that *music.mp3* is located in the same directory as *final_model.py*.
 
-5. Launch the system:
+7. Launch the system:
+   
    `python final_model.py`.
    
