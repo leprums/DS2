@@ -30,16 +30,16 @@ Music was written in Strudel (TidalCycles) - code placed ./data/melody_strudel.j
 
    `cd <repository_folder>`
 
-3. Install the dependencies:
+2. Install the dependencies:
    
    Make sure you have a virtual environment activated, then run:
    
    `pip install -r requirements.txt`.
 
-5. Prepare the files:
+3. Prepare the files:
    
    Ensure that *music.mp3* is located in the same directory as *final_model.py*.
 
-7. Launch the system:
+4. Launch the system:
 
    `python final_model.py`.
