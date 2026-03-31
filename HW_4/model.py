@@ -2,8 +2,6 @@ import torch
 import torch.nn as nn
 import re
 from nltk.stem.snowball import SnowballStemmer
-import nltk
-nltk.download('punkt', quiet=True)
 
 # Инициализируем стеммер
 stemmer = SnowballStemmer("russian")
