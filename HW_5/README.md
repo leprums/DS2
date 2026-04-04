@@ -8,7 +8,7 @@ The dataset is sourced from HuggingFace: https://huggingface.co/datasets/BioMike
 ### Features
 * **DCGAN Architecture:** Uses convolutional layers (`Conv2d`) in the Discriminator and transposed convolutions (`ConvTranspose2d`) in the Generator.
 * **Advanced Training:** Uses Instance Noise to prevent the Discriminator from dominating.
-* **Dynamic Checkpoints:** Preserving weights (`.pth`) for incremental model improvement. Retraining after 100 epochs with a variable learning rate.
+* **Dynamic Checkpoints:** Preserving weights (`.pth`) for incremental model improvement. Retraining after 100 epochs with a lover learning rate.
 ![Loss:](https://github.com/leprums/DS2/blob/main/HW_5/results/output_150.png?raw=true)
 * **Tools & Frameworks:** *PyTorch*, *Torchvision*, *Matplotlib*, *Imageio* (for creating GIF progress animation).
 
