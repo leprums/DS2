@@ -8,4 +8,4 @@ Repository structure:
 4. [DS-Assistant bot (implementation using PyTorch, NLTK, Aiogram)](./HW_4) — HW_4.
 5. [DCGAN emoji creator (implementation using PyTorch)](./HW_5) — HW_5.
 
-   ### [Final Project](./final_project): AI-powered Telegram Bot for Finding Reagents in a Chemistry Lab.
+   ### [Final Project](./final_project): AI-powered Telegram Bot for Searching Reagents in a Chemistry Lab.
