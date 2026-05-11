@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  reagents_bot:
+    # Команда для сборки образа с использованием Dockerfile в этой папке
+    build: .
+    image: reagents_bot:local # Название образа теперь может быть любым локальным именем
+    restart: always # Для автозапуска
+    env_file:
+      - .env
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data # Чтобы база данных была "снаружи" и её можно было менять без пересборки
+      - ./intentions.json:/app/intentions.json
+    deploy:
+      # Ограничение по использованию памяти
+      resources:
+        limits:
+          memory: 2560M
