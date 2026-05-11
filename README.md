@@ -7,3 +7,5 @@ Repository structure:
 3. [Yolo8-Pose-based Gesture-Controlled System (implementation using OpenCV, Pygame, Strudel)](./HW_3) — HW_3.
 4. [DS-Assistant bot (implementation using PyTorch, NLTK, Aiogram)](./HW_4) — HW_4.
 5. [DCGAN emoji creator (implementation using PyTorch)](./HW_5) — HW_5.
+
+   ### [Final Project](./final_project): AI-powered Telegram Bot for Finding Reagents in a Chemistry Lab.
