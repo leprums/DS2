@@ -44,7 +44,7 @@ while count < COUNT_TO_COLLECT:
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
     cv2.imshow('Data Collection', display_frame)
 
-    # Небольшая пауза, чтобы ты успевала менять положение руки
+    # Небольшая пауза, чтобы успевать менять положение руки
     if cv2.waitKey(200) & 0xFF == ord('q'):
         break
 
