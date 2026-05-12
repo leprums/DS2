@@ -70,7 +70,7 @@ while cap.isOpened():
         special_visual = False
 
     elif current_gesture == 'five':
-        # ЛАДОНЬ: плэй
+        # ЛАДОНЬ: воспроизведение
         if not pygame.mixer.music.get_busy():
             pygame.mixer.music.unpause()
         special_visual = False
