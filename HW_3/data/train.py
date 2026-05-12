@@ -18,15 +18,15 @@ else:
 if os.path.exists(DATA_CONFIG):
     print(f'--- Используем файл конфигурации: {DATA_CONFIG} ---')
     results = model.train(
-        data=DATA_CONFIG, # путь к данным
+        data=DATA_CONFIG, # Путь к данным
         epochs=30, # Сколько раз прогнать датасет
-        imgsz=640, # Размер картинки (стандарт для YOLO)
-        patience=10, # Early Stopping: если 10 эпох ошибка не падает, обучение остановится само
+        imgsz=640, # Размер картинки
+        patience=10, # Early Stopping: если 10 эпох ошибка не падает, обучение остановится
         save=True, # Сохранять промежуточные результаты
         device='cpu', # Если есть видеокарта NVIDIA, поменять на 0
         project='runs/detect', # Папка для логов
         name='train', # Имя сессии
-        exist_ok=True, # Не создавать новую папку train2, train3 при каждом запуске
+        exist_ok=True, # Не создавать новую папку при каждом запуске
         plots=True, # Рисовать графики точности (mAP) и ошибки (Loss)
         verbose=True # Показывать детальный прогресс каждой эпохи
     )
